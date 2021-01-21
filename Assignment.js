@@ -4,7 +4,7 @@ function kilometerToMeter(kilometer) {
     if (typeof kilometer != 'number' || kilometer < 0) {
         return 'Opps! Enter Wrong Keyword';
     } else {
-        const meter = kilometer * 1000;
+        const meter = kilometer * 1000; //1kilometer=1000meter
         return meter;
     }
 
