@@ -1,20 +1,21 @@
+// https://github.com/tauhidhasan/assignment3
+
 function kilometerToMeter(kilometer) {
     if (typeof kilometer != 'number' || kilometer < 0) {
-        return 'Opps! Enter Wrong Keyword'
+        return 'Opps! Enter Wrong Keyword';
     } else {
         const meter = kilometer * 1000;
         return meter;
     }
 
 }
-console.log('Kilometer To Meter Converter:')
 
-console.log(kilometerToMeter(20))
+console.log(kilometerToMeter(50));
 
 // budgetCalculator
 function budgetCalculator(ghori, phone, laptop) {
     if (typeof ghori != 'number' || typeof phone != 'number' || typeof laptop != 'number' || ghori < 0 || phone < 0 || laptop < 0) {
-        return 'Opps! Enter Wrong Keyword'
+        return 'Opps! Enter Wrong Keyword';
     } else {
         var totalCost = ghori * 50 + phone * 100 + laptop * 500;
         return totalCost;
@@ -23,15 +24,16 @@ function budgetCalculator(ghori, phone, laptop) {
 
 
 }
-console.log('Budget Calculator:')
 
-console.log(budgetCalculator(6, 2, 5))
+
+console.log(budgetCalculator(40, 54, 60));
+
 
 
 // hotelCost
 function hotelCost(day) {
     if (typeof day != 'number' || day < 0) {
-        return 'Opps! Enter Wrong Keyword'
+        return 'Opps! Enter Wrong Keyword';
     }
     if (day <= 10) {
         var totalCost = day * 100;
@@ -39,8 +41,8 @@ function hotelCost(day) {
     } else if (day <= 20) {
         cost = 10 * 100;
         reminder = day - 10;
-        reminderDayCost = reminder * 80
-        totalcost1 = cost + reminderDayCost
+        reminderDayCost = reminder * 80;
+        totalcost1 = cost + reminderDayCost;
 
 
     } else if (day > 20) {
@@ -55,8 +57,9 @@ function hotelCost(day) {
 
 
 }
-console.log('Hotel Cost Calculator:')
-console.log(hotelCost(25))
+console.log(hotelCost(28));
+
+
 
 //Largest String
 
@@ -79,6 +82,5 @@ function megaFriend(arr) {
 }
 
 
-console.log('Find Largest String:')
 
-console.log(megaFriend(21))
+console.log(megaFriend(friend));
