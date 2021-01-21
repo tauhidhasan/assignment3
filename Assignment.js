@@ -81,4 +81,4 @@ function megaFriend(arr) {
 
 console.log('Find Largest String:')
 
-console.log(megaFriend(friend))
+console.log(megaFriend(21))
